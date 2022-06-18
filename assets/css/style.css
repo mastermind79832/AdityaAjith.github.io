@@ -830,6 +830,11 @@ section .container {
   top: 0;
   bottom: 0;
   overflow-y: auto;
+  -ms-overflow-style:none;
+  scrollbar-width:none;
+}
+.portfolio-details::-webkit-scrollbar{
+    display: none;
 }
 .portfolio-details .container {
   padding-top: 20px;
@@ -1036,7 +1041,7 @@ section .container {
   .credits {
     text-align: center;
     padding: 10px;
-    background: rgba(12, 12, 17, 0.7);
+    background: rgba(0, 0, 0, 1);
   }
 }
 .credits a {
