@@ -846,8 +846,8 @@ section .container {
   margin-bottom: 20px;
 }
 .portfolio-details img{
-    height: 80vh;
-    width: auto;
+    height: auto;
+    max-width: 120%;
 }
 .portfolio-details .portfolio-info {
   padding-top: 45px;
