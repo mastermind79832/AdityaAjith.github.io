@@ -845,6 +845,10 @@ section .container {
   font-weight: 700;
   margin-bottom: 20px;
 }
+.portfolio-details img{
+    height: 80vh;
+    width: auto;
+}
 .portfolio-details .portfolio-info {
   padding-top: 45px;
 }
@@ -869,10 +873,10 @@ section .container {
   .portfolio-details .portfolio-info {
     padding-top: 20px;
   }
-}
-.portfolio-details img{
-    height: auto;
-    width: 100%;
+  .portfolio-details img{
+      height: auto;
+      width: 100%;
+  }
 }
 .portfolio-details .swiper-pagination {
   margin-top: 20px;
