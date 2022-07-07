@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/adityaface-bg.jpg") top right no-repeat;
+  background: #040404 url("../img/4ghosts.png") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -30,6 +30,12 @@ body::before {
   body::before {
     background-attachment: fixed;
   }
+}
+@media (max-width: 850px) {
+    body::before {
+      background: #040404 url("../img/AmongUs.png") top right no-repeat;
+      background-size: cover;
+    }
 }
 
 a {
@@ -868,6 +874,10 @@ section .container {
 .portfolio-details .portfolio-info p {
   font-size: 15px;
   padding: 15px 0 0 0;
+}
+.portfolio-details .portfolio-info .stuff {
+    list-style: disc;
+    margin-left: 20px;
 }
 @media (max-width: 992px) {
   .portfolio-details .portfolio-info {
