@@ -853,7 +853,7 @@ section .container {
 }
 .portfolio-details img{
     height: auto;
-    max-width: 120%;
+    max-width: 100%;
 }
 .portfolio-details .portfolio-info {
   padding-top: 45px;
